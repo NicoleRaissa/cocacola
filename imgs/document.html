@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>document</title>
+  <link href="document_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"><link rel="stylesheet" href="document_files/style.css"></head>
+  <body>
+    <div class="container">
+      <h1>List of Products</h1>
+
+      <button id="myOtherBtn">other</button>
+      <div class="row">
+        <div id="wrapper">
+
+        <div class="card"><h2>coca-cola</h2><img src="document_files/Coca-Cola.svg"></div><div class="card"><h2>fanta</h2><img src="document_files/Fanta.svg"></div><div class="card"><h2>sprite</h2><img src="document_files/logo.png"></div><div class="card"><h2>coca-cola</h2><img src="document_files/Coca-Cola.svg"></div><div class="card"><h2>fanta</h2><img src="document_files/Fanta.svg"></div><div class="card"><h2>sprite</h2><img src="document_files/logo.png"></div><div class="card"><h2>coca-cola</h2><img src="document_files/Coca-Cola.svg"></div><div class="card"><h2>fanta</h2><img src="document_files/Fanta.svg"></div><div class="card"><h2>sprite</h2><img src="document_files/logo.png"></div></div>
+      </div>
+
+      <!-- <button id="myBtn">print</button> -->
+      
+    </div>
+
+    <!-- <script type='text/javascript'> 
+
+        // <?php
+
+        // //$php_array = array('geeks', 'for', 'geeks'); 
+        // $php_array =
+        // [
+        //     [
+        //         "productName"=> "coca-cola",
+        //         "price"=> 3.12,
+        //         "ml"=> 33,s
+        //         "imgLink"=> "/img/cocacola.jpg"
+        // ],
+        //     [
+        //         "productName"=> "fanta",
+        //         "price"=> 3.12,
+        //         "ml"=> 33,
+        //         "imgLink"=> "/img/fanta.jpg"
+        //     ]
+        // ];
+
+        // $js_array = json_encode($php_array); 
+
+        // //echo "const myProducts = ". $js_array . ";\n"; 
+
+        // ?> 
+        
+    </script> -->
+    <script src="document_files/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="document_files/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="document_files/index.js"></script>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
