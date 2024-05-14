@@ -1,0 +1,85 @@
+{
+  "100":{
+    "product_id": "100",
+    "productName": "Coca-Cola",
+    "title" : "Coca‑Cola Original Taste",
+    "price": "3$",
+    "image": "../../imgs/Coca-Cola.svg",
+    "productImage": "../../imgs/coca-cola.webp",
+    "description": "Coca‑Cola Original Taste è l'iconica bevanda, oggi disponibile in numerosi formati per rispondere alle nuove richieste del pubblico e ai momenti di consumo sempre più vari e numerosi."
+  },
+  "101":{
+    "product_id": "101",
+    "productName": "Fanta",
+    "title":"Fanta con succo d'Arancia",
+    "price": "3$",
+    "image": "../../imgs/Fanta.svg",
+    "productImage": "../../imgs/fata-page.webp",
+    "description": "Prova il gusto irresistibile di Fanta, prodotta in Italia con succo di arrance 100% italiane, per la tua pausa frizzante e divertente"
+  },
+  "102":{
+    "product_id": "102",
+    "productName": "Sprite",
+    "title":"Sprite",
+    "price": "3$",
+    "image": "../../imgs/logo.png",
+    "productImage": "../../imgs/sprite-page.webp",
+    "description": "Sprite è la bevanda al gusto lemon lime più conosciuta al mondo. Con la sua freschezza e trasparenza, Sprite iniziò a dissetare e conquistare gli italiani nel 1981"
+  },
+  "103":{
+    "product_id": "103",
+    "productName": "Kinley",
+    "title":"Kinley Tonic Water",
+    "price": "3$",
+    "image": "../../imgs/kinley.png",
+    "productImage": "../../imgs/kinley-page.webp",
+    "description": "Kinley Tonic Water è il mixer dal gusto intenso e rinfrescante, dalle note di limone, lime e lemongrass, accuratamente combinate per creare un profilo aromatico ben arrotondato ed equilibrato. Il risultato è un gusto versatile e ricco che viene addolcito con ingredienti di origine naturale. Con le sue note agrumate e leggere sfumature legnose, Kinley Tonic Water offre un perfetto equilibrio tra dolcezza e amarezza."
+  },
+  "104":{
+    "product_id": "104",
+    "productName": "Lurizia",
+    "title":"Il Nostro Chinotto",
+    "price": "3$",
+    "image": "../../imgs/lurizia-real.webp",
+    "productImage": "../../imgs/adez-page.webp",
+    "description": "L’aroma inconfondibile del nostro chinotto nasce sulla Riviera Ligure di Ponente dove, fin dal 1500, si coltivano le piante. L’infuso ottenuto da questo agrume conferisce alla nostra bibita un gusto unico capace di sprigionare profumi intensi. È Il Nostro Chinotto, quello con il chinotto del Presìdio Slow Food di Savona. Colore limpido ma dalle intense e vivaci tonalità caramellate. Profumo intenso d’agrume e di spezie. Le bollicine esaltano la finezza e l’armonia di un bouquet particolarmente complesso: agrumi, erbe, spezie e caramello amaro. Al palato si rivela vellutato e morbido con corpo nobile ed armonioso, senza eccesso di dolcezza."
+  },
+  "105":{
+    "product_id": "105",
+    "productName": "Fuzetea",
+    "title":"Fuze Tea Limone e Lemongrass",
+    "price": "3$",
+    "image": "../../imgs/fuzetea.png",
+    "productImage": "../../imgs/fuzetea-page.webp",
+    "description": "Fuze Tea Limone e Lemongrass è un’inaspettata fusione tra il sapore del tè e del limone, con una nota di lemongrass. Un gusto sorprendente per un piacere irresistibile."
+  },
+  "106":{
+    "product_id": "106",
+    "title":"Powerade Mountain Blast",
+    "productName": "PowerAde",
+    "price": "3$",
+    "image": "../../imgs/powerade.png",
+    "productImage": "../../imgs/powerade-page.webp",
+    "description": "Powerade Mountain Blast è lo sport drink isotonico al gusto di frutti di bosco. Ideale per idratarsi durante lo sport, contribuisce al mantenimento di prestazioni di resistenza durante l’esercizio fisico prolungato"
+  },
+  "107":{
+    "product_id": "107",
+    "productName": "Lillia",
+    "title":"Acqua Lilia. Pura per natura.",
+    "price": "3$",
+    "image": "../../imgs/lilia.png",
+    "productImage": "../../imgs/lilia-page.webp",
+    "description": "Acqua lilia frizzante nasce nei territori verdi e incontaminati che le donano quella autentica composizione di minerali che la natura ha pensato per lei fin dalla sua origine.Residuo fisso a 180°C 393 mg/L."
+  },
+"108":{
+    "product_id": "108",
+    "productName": "Sveva",
+    "title" : "SVEVA Acqua Minerale Effervescente Naturale",
+    "price": "3$",
+    "image": "../../imgs/sveva.png",
+    "productImage": "../../imgs/sveva-page.webp",
+    "description": "L’Acqua Sveva ha un’effervescenza naturale, che deriva dal contatto con le rocce vulcaniche tra cui scorre e riposa per quasi 50 anni prima di raggiungere la superficie."
+
+  }
+}
+
