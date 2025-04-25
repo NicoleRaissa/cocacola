@@ -16,5 +16,6 @@ Frontend: HTML-CSS-JS/Bootstrap
 🚀Getting Started
 
 clone the repository: git clone https://github.com/NicoleRaissa/Internship.git
+
 cd Intership.git
 
