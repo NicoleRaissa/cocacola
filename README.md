@@ -1,4 +1,4 @@
-🥤 Coca-Cola Explorer
+🥤 Explorer Coca-Cola 
 
 Welcome to Coca-cola, a sleek and interactive webpage designed to showcase various Coca-cola products with a smooth user experience. Built with a focus on clean design, user authentication, and navigation flow.
 
